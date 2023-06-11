@@ -1,0 +1,12 @@
+.header-container{
+    height: 70px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    h2{
+        color: #282c34;
+    }
+}

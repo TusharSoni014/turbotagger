@@ -1,0 +1,26 @@
+.form-container {
+  .input-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    .form-element {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .title-input-box {
+        border: none;
+        width: 90%;
+        max-width: 700px;
+        padding: 20px;
+      }
+    }
+  }
+}
+.loading-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

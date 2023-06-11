@@ -1,0 +1,16 @@
+.tag-element-container{
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 5px;
+    .cross-icon{
+        margin: 0 0 0 5px;
+        cursor: pointer;
+        width: 10px;
+    }
+}

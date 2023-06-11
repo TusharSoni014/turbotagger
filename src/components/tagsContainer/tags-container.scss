@@ -1,0 +1,26 @@
+.tags-container-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .tag-container {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .copy-all-btn{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .copy-icon{
+        height: 100%;
+        margin: 0 5px 0 0 ;
+    }
+  }
+}
